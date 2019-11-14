@@ -5,6 +5,7 @@ export default class Home extends Component {
     render() {
         return (
             <div>
+                <section className="colorlib-home" data-section="home">
                  <header id="home">
                 </header>
                 <div class="caption text-center" id="started">
@@ -12,6 +13,7 @@ export default class Home extends Component {
           <h2 class="headerdescription"> Robert Strzelczyk <a href="https://www.linkedin.com/in/robert-strzelczyk-3910b415a/" id="nameandsurname">(@robert-strzelczyk)</a></h2>
      
   </div>
+  </section>
             </div>
         )
     }
